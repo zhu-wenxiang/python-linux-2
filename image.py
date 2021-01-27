@@ -16,6 +16,6 @@ def process():
             ax1 = fig.add_subplot(221)
             imshow(img_new)
             plt.title('Grayscale Format') 
-            imsave(os.getcwd() + "/output/" + filenamestr +"-" + helper.generateRandomName() + "_modified.jpeg", (img_new*255).astype(np.uint8))
+            imsave(os.getcwd() + "/output_photos/" + filenamestr +"-" + helper.generateRandomName() + "_modified.jpeg", (img_new*255).astype(np.uint8))
         else:
             continue
