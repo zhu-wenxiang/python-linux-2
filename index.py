@@ -2,7 +2,7 @@ import bottle
 from bottle import route, run, Response, template
 import json
 import image
-import tarcemalloc
+import tracemalloc
 
 def generate_data(num):
     numbers = int(num/8)
