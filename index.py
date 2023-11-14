@@ -2,6 +2,7 @@ import bottle
 from bottle import route, run, Response, template
 import json
 import image
+import tracemalloc
 
 def call_service():
     directoryName = 'photos'
